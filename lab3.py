@@ -2,7 +2,7 @@ def remove_spaces(raw_string):
     char_list = [char for char in raw_string if char != " "]
     return "".join(char_list)
 
-
+# Prompt the user for input and remove spaces from the entered string
 while True:
     user_input = input("Enter a string to delete spaces: ")
     if user_input:
